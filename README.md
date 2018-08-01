@@ -10,8 +10,9 @@ And more coming from the local PC!
 
 When we add changes to this file locally, we must add all modified files to staging area and then commit changes:
 
-git commit -am "Commenting this commit."
-git push origin my-branch-name
+git add --all
+git commit -m "Comment for all changes in this commit."
+git push origin master
 
 
 If a new branch is obsolete, it can be deleted (locally).
